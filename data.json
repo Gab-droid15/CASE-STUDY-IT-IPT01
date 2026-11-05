@@ -1,0 +1,460 @@
+{
+  "settings": {
+    "owner_password": "owner123"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Purified Refill",
+      "price": 25.0,
+      "stock": null,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Alkaline Refill",
+      "price": 30.0,
+      "stock": null,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Empty Round Gallon",
+      "price": 150.0,
+      "stock": 19,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Empty Slim Gallon",
+      "price": 180.0,
+      "stock": 15,
+      "available": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "Maria Santos",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 5,
+          "amount": 125.0
+        }
+      ],
+      "total": 125.0,
+      "cash": 200.0,
+      "change": 75.0,
+      "date": "2026-10-29",
+      "time": "08:15 AM"
+    },
+    {
+      "id": 2,
+      "customer_name": "Jose Reyes",
+      "items": [
+        {
+          "product_id": 2,
+          "name": "Alkaline Refill (Slim)",
+          "price": 30.0,
+          "qty": 3,
+          "amount": 90.0
+        },
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 4,
+          "amount": 100.0
+        }
+      ],
+      "total": 190.0,
+      "cash": 200.0,
+      "change": 10.0,
+      "date": "2026-10-29",
+      "time": "10:40 AM"
+    },
+    {
+      "id": 3,
+      "customer_name": "Ana Cruz",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Slim)",
+          "price": 25.0,
+          "qty": 10,
+          "amount": 250.0
+        }
+      ],
+      "total": 250.0,
+      "cash": 300.0,
+      "change": 50.0,
+      "date": "2026-10-29",
+      "time": "01:25 PM"
+    },
+    {
+      "id": 4,
+      "customer_name": "Pedro Garcia",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 6,
+          "amount": 150.0
+        },
+        {
+          "product_id": 5,
+          "name": "Gallon Cap",
+          "price": 10.0,
+          "qty": 2,
+          "amount": 20.0
+        }
+      ],
+      "total": 170.0,
+      "cash": 200.0,
+      "change": 30.0,
+      "date": "2026-10-29",
+      "time": "04:50 PM"
+    },
+    {
+      "id": 5,
+      "customer_name": "Liza Mendoza",
+      "items": [
+        {
+          "product_id": 2,
+          "name": "Alkaline Refill (Round)",
+          "price": 30.0,
+          "qty": 4,
+          "amount": 120.0
+        }
+      ],
+      "total": 120.0,
+      "cash": 200.0,
+      "change": 80.0,
+      "date": "2026-10-30",
+      "time": "07:50 AM"
+    },
+    {
+      "id": 6,
+      "customer_name": "Carlo Ramos",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 8,
+          "amount": 200.0
+        }
+      ],
+      "total": 200.0,
+      "cash": 200.0,
+      "change": 0.0,
+      "date": "2026-10-30",
+      "time": "09:30 AM"
+    },
+    {
+      "id": 7,
+      "customer_name": "Rosa Bautista",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Slim)",
+          "price": 25.0,
+          "qty": 5,
+          "amount": 125.0
+        },
+        {
+          "product_id": 2,
+          "name": "Alkaline Refill (Slim)",
+          "price": 30.0,
+          "qty": 2,
+          "amount": 60.0
+        }
+      ],
+      "total": 185.0,
+      "cash": 200.0,
+      "change": 15.0,
+      "date": "2026-10-30",
+      "time": "12:10 PM"
+    },
+    {
+      "id": 8,
+      "customer_name": "Mark Villanueva",
+      "items": [
+        {
+          "product_id": 3,
+          "name": "Empty Round Gallon",
+          "price": 150.0,
+          "qty": 1,
+          "amount": 150.0
+        },
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 3,
+          "amount": 75.0
+        }
+      ],
+      "total": 225.0,
+      "cash": 300.0,
+      "change": 75.0,
+      "date": "2026-10-30",
+      "time": "03:45 PM"
+    },
+    {
+      "id": 9,
+      "customer_name": "Joy Aquino",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 7,
+          "amount": 175.0
+        }
+      ],
+      "total": 175.0,
+      "cash": 200.0,
+      "change": 25.0,
+      "date": "2026-10-30",
+      "time": "05:20 PM"
+    },
+    {
+      "id": 10,
+      "customer_name": "Ben Torres",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 10,
+          "amount": 250.0
+        }
+      ],
+      "total": 250.0,
+      "cash": 300.0,
+      "change": 50.0,
+      "date": "2026-10-31",
+      "time": "08:05 AM"
+    },
+    {
+      "id": 11,
+      "customer_name": "Nina Flores",
+      "items": [
+        {
+          "product_id": 2,
+          "name": "Alkaline Refill (Round)",
+          "price": 30.0,
+          "qty": 6,
+          "amount": 180.0
+        }
+      ],
+      "total": 180.0,
+      "cash": 200.0,
+      "change": 20.0,
+      "date": "2026-10-31",
+      "time": "11:15 AM"
+    },
+    {
+      "id": 12,
+      "customer_name": "Dante Castillo",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Slim)",
+          "price": 25.0,
+          "qty": 4,
+          "amount": 100.0
+        },
+        {
+          "product_id": 4,
+          "name": "Empty Slim Gallon",
+          "price": 180.0,
+          "qty": 1,
+          "amount": 180.0
+        }
+      ],
+      "total": 280.0,
+      "cash": 300.0,
+      "change": 20.0,
+      "date": "2026-10-31",
+      "time": "02:30 PM"
+    },
+    {
+      "id": 13,
+      "customer_name": "Grace Lopez",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 5,
+          "amount": 125.0
+        },
+        {
+          "product_id": 2,
+          "name": "Alkaline Refill (Slim)",
+          "price": 30.0,
+          "qty": 3,
+          "amount": 90.0
+        }
+      ],
+      "total": 215.0,
+      "cash": 300.0,
+      "change": 85.0,
+      "date": "2026-10-31",
+      "time": "04:10 PM"
+    },
+    {
+      "id": 14,
+      "customer_name": "Ricky Navarro",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 12,
+          "amount": 300.0
+        }
+      ],
+      "total": 300.0,
+      "cash": 300.0,
+      "change": 0.0,
+      "date": "2026-11-01",
+      "time": "09:00 AM"
+    },
+    {
+      "id": 15,
+      "customer_name": "Tess Morales",
+      "items": [
+        {
+          "product_id": 2,
+          "name": "Alkaline Refill (Round)",
+          "price": 30.0,
+          "qty": 5,
+          "amount": 150.0
+        }
+      ],
+      "total": 150.0,
+      "cash": 200.0,
+      "change": 50.0,
+      "date": "2026-11-01",
+      "time": "10:55 AM"
+    },
+    {
+      "id": 16,
+      "customer_name": "Aling Nena",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Slim)",
+          "price": 25.0,
+          "qty": 6,
+          "amount": 150.0
+        },
+        {
+          "product_id": 5,
+          "name": "Gallon Cap",
+          "price": 10.0,
+          "qty": 3,
+          "amount": 30.0
+        }
+      ],
+      "total": 180.0,
+      "cash": 200.0,
+      "change": 20.0,
+      "date": "2026-11-01",
+      "time": "01:40 PM"
+    },
+    {
+      "id": 17,
+      "customer_name": "Kuya Boy",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 9,
+          "amount": 225.0
+        }
+      ],
+      "total": 225.0,
+      "cash": 300.0,
+      "change": 75.0,
+      "date": "2026-11-01",
+      "time": "03:20 PM"
+    },
+    {
+      "id": 18,
+      "customer_name": "Hazel Domingo",
+      "items": [
+        {
+          "product_id": 2,
+          "name": "Alkaline Refill (Slim)",
+          "price": 30.0,
+          "qty": 4,
+          "amount": 120.0
+        },
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Slim)",
+          "price": 25.0,
+          "qty": 2,
+          "amount": 50.0
+        }
+      ],
+      "total": 170.0,
+      "cash": 200.0,
+      "change": 30.0,
+      "date": "2026-11-01",
+      "time": "05:05 PM"
+    },
+    {
+      "id": 19,
+      "customer_name": "Ynand",
+      "items": [
+        {
+          "product_id": 2,
+          "name": "Alkaline Refill (Slim)",
+          "price": 30.0,
+          "qty": 3,
+          "amount": 90.0
+        },
+        {
+          "product_id": 3,
+          "name": "Empty Round Gallon",
+          "price": 150.0,
+          "qty": 1,
+          "amount": 150.0
+        }
+      ],
+      "total": 240.0,
+      "cash": 250.0,
+      "change": 10.0,
+      "date": "2026-11-05",
+      "time": "11:35 PM"
+    },
+    {
+      "id": 20,
+      "customer_name": "Jun",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 2,
+          "amount": 50.0
+        }
+      ],
+      "total": 50.0,
+      "cash": 100.0,
+      "change": 50.0,
+      "date": "2026-11-05",
+      "time": "11:53 PM"
+    }
+  ]
+}
