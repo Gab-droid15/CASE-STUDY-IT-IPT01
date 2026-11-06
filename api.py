@@ -2,11 +2,9 @@ import json
 import urllib.request
 from datetime import date, datetime
 from fastapi import FastAPI, HTTPException, Header
-from models import OrderInput, OwnerLoginInput, ProductInput, ProductUpdateInput  # ung asa models ko
-
+from models import OrderInput, OwnerLoginInput, ProductInput, ProductUpdateInput 
 
 # 9 API's
-
 app = FastAPI(title="CJGab Water Refilling Station - Ordering and Inventory API")
 
 # --- Helper functions to read and save data.json ---
@@ -164,7 +162,6 @@ def owner_login(login: OwnerLoginInput):
     data = load_data()
     verify_owner(login.password, data)
     return {"message": "Login successful"}
-
 
 # --- 5. (GET) Order history (optional ?day=YYYY-MM-DD filter, no day = all orders) ---
 @app.get("/owner/orders", status_code=200)

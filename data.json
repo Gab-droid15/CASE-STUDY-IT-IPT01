@@ -1,6 +1,6 @@
 {
   "settings": {
-    "owner_password": "owner123"
+    "owner_password": "jun123"
   },
   "products": [
     {
@@ -21,14 +21,14 @@
       "id": 3,
       "name": "Empty Round Gallon",
       "price": 150.0,
-      "stock": 19,
+      "stock": 18,
       "available": true
     },
     {
-      "id": 4,
-      "name": "Empty Slim Gallon",
-      "price": 180.0,
-      "stock": 15,
+      "id": 5,
+      "name": "Water Dispenser",
+      "price": 1500.0,
+      "stock": 5,
       "available": true
     }
   ],
@@ -455,6 +455,110 @@
       "change": 50.0,
       "date": "2026-11-05",
       "time": "11:53 PM"
+    },
+    {
+      "id": 21,
+      "customer_name": "Juliet",
+      "items": [
+        {
+          "product_id": 4,
+          "name": "Empty Slim Gallon",
+          "price": 180.0,
+          "qty": 1,
+          "amount": 180.0
+        }
+      ],
+      "total": 180.0,
+      "cash": 200.0,
+      "change": 20.0,
+      "date": "2026-11-06",
+      "time": "12:36 AM"
+    },
+    {
+      "id": 22,
+      "customer_name": "David",
+      "items": [
+        {
+          "product_id": 3,
+          "name": "Empty Round Gallon",
+          "price": 150.0,
+          "qty": 1,
+          "amount": 150.0
+        },
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Round)",
+          "price": 25.0,
+          "qty": 1,
+          "amount": 25.0
+        }
+      ],
+      "total": 175.0,
+      "cash": 180.0,
+      "change": 5.0,
+      "date": "2026-11-06",
+      "time": "01:10 AM"
+    },
+    {
+      "id": 23,
+      "customer_name": "Mehia",
+      "items": [
+        {
+          "product_id": 5,
+          "name": "Water Dispenser",
+          "price": 1500.0,
+          "qty": 3,
+          "amount": 4500.0
+        }
+      ],
+      "total": 4500.0,
+      "cash": 10000.0,
+      "change": 5500.0,
+      "date": "2026-11-06",
+      "time": "01:27 AM"
+    },
+    {
+      "id": 24,
+      "customer_name": "Muchi",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Purified Refill (Slim)",
+          "price": 25.0,
+          "qty": 5,
+          "amount": 125.0
+        },
+        {
+          "product_id": 2,
+          "name": "Alkaline Refill (Round)",
+          "price": 30.0,
+          "qty": 2,
+          "amount": 60.0
+        }
+      ],
+      "total": 185.0,
+      "cash": 200.0,
+      "change": 15.0,
+      "date": "2026-11-06",
+      "time": "08:57 AM"
+    },
+    {
+      "id": 25,
+      "customer_name": "Julie",
+      "items": [
+        {
+          "product_id": 5,
+          "name": "Water Dispenser",
+          "price": 1500.0,
+          "qty": 1,
+          "amount": 1500.0
+        }
+      ],
+      "total": 1500.0,
+      "cash": 1500.0,
+      "change": 0.0,
+      "date": "2026-11-06",
+      "time": "09:34 AM"
     }
   ]
 }

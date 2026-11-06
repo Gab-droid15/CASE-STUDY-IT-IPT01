@@ -1,10 +1,6 @@
 import requests
-
-# Run the API first:  uvicorn api:app --reload
-# Then run this file:  python main.py
 BASE_URL = "http://127.0.0.1:8000"
 STATION = "CJGab Water Refilling Station"
-
 
 # ---------------------------------------------------------------- helpers
 def call(method, path, owner_password=None, **kwargs):
@@ -91,8 +87,6 @@ def print_receipt(r):
     print("=" * 46)
     print("WORKER: Serve EXACTLY the items above.")
     print("CUSTOMER: Check that this matches your order.")
-
-
 # ---------------------------------------------------------------- customer
 def show_cart(cart):
     print("\n--- Your Order ---")
@@ -196,8 +190,6 @@ def customer_menu():
             return
         else:
             print("  Invalid choice.")
-
-
 # ---------------------------------------------------------------- owner
 def order_history(password):
     day = input("\nEnter date (YYYY-MM-DD) or 0 to view all orders: ").strip()
@@ -218,7 +210,7 @@ def order_history(password):
         print(f"{o['id']:04d}     {o['date']:<12}{o['time']:<10}{o['customer_name']:<18}{items:>6}{o['total']:>12,.2f}")
     print("-" * 78)
     print(f"Total orders: {len(orders)}    Total sales: P{sum(o['total'] for o in orders):,.2f}")
-
+    
     # optionally open a full receipt
     while True:
         no = ask_int("\nEnter receipt no. to view full receipt (0 to go back): ")
@@ -338,7 +330,7 @@ def owner_menu():
         print("Too many failed attempts. Returning to main menu.")
         return
 
-    print("\nLogin successful. Welcome, Owner!")
+    print("\nLogin successful. Welcome, Sir!")
     while True:
         print("\n===== OWNER =====")
         print("1. Order History")
@@ -355,7 +347,6 @@ def owner_menu():
             return
         else:
             print("  Invalid choice.")
-
 
 # ---------------------------------------------------------------- main
 def main():
